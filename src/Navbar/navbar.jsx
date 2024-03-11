@@ -16,7 +16,7 @@ function Navbar() {
           <ul className="lg:flex lg:gap-[50px] xl:gap-7 lg:justify-center lg:items-start lg:p-4 ">
             <li>
               <a
-                className="text-base text-black font-bold hover:underline-black hover:underline hover:underline-offset-[8px] "
+                className="text-base text-black font-[700] hover:text-white hover:underline-black hover:underline hover:underline-offset-[8px] "
                 href=" "
               >
                 Home
@@ -24,7 +24,7 @@ function Navbar() {
             </li>
             <li>
               <a
-                className="text-base text-black font-bold hover:underline-black hover:underline hover:underline-offset-[8px] "
+                className="text-base text-black font-[700] hover:text-white hover:underline-black hover:underline hover:underline-offset-[8px] "
                 href=" "
               >
                 About Us
@@ -32,7 +32,7 @@ function Navbar() {
             </li>
             <li>
               <a
-                className="text-base text-black font-bold hover:underline-black hover:underline hover:underline-offset-[8px] "
+                className="text-base text-black font-[700] hover:text-white hover:underline-black hover:underline hover:underline-offset-[8px] "
                 href=" "
               >
                 Registrations
@@ -40,7 +40,7 @@ function Navbar() {
             </li>
             <li>
               <a
-                className="text-base text-black font-bold hover:underline-black hover:underline hover:underline-offset-[8px] "
+                className="text-base text-black font-[700] hover:text-white hover:underline-black hover:underline hover:underline-offset-[8px] "
                 href=" "
               >
                 Photo & Gallery
@@ -48,7 +48,7 @@ function Navbar() {
             </li>
             <li>
               <a
-                className="text-base text-black font-bold hover:underline-black hover:underline hover:underline-offset-[8px] "
+                className="text-base text-black font-[700] hover:text-white hover:underline-black hover:underline hover:underline-offset-[8px] "
                 href=" "
               >
                 Founder
@@ -56,7 +56,7 @@ function Navbar() {
             </li>
             <li>
               <a
-                className="text-base text-black font-bold hover:underline-black hover:underline hover:underline-offset-[8px] "
+                className="text-base text-black font-[700] hover:text-white hover:underline-black hover:underline hover:underline-offset-[8px] "
                 href=" "
               >
                 Contact Us
@@ -65,7 +65,7 @@ function Navbar() {
           </ul>
         </nav>
         <CgMenuRight
-          className="font-bold ml-10 text-3xl lg:hidden text-black"
+          className="font-bold ml-10 text-[50px] lg:hidden text-black pr-[10px]"
           onClick={() => setNavOpen(!NavOpen)}
         />
       </div>

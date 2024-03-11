@@ -2,7 +2,8 @@ import Founderimg from "../assets/1.jpg";
 function Founder() {
   return (
     <div className="flex flex-col bg-black w-[100%]">
-      <h1 className="text-white font-[600] text-[30px] pl-[10px]  md:text-[35px] pt-[20px] lg:pl-[10px] lg:text-[45px] xl:pt-[30px]">
+      <h1 data-aos="fade-down-right"data-aos-duration="600"
+    data-aos-easing="linear" className="text-white font-[600] text-[30px] pl-[10px]  md:text-[35px] pt-[20px] lg:pl-[10px] lg:text-[45px] xl:pt-[30px]">
         <span className="text-[#ff4c00]">O</span>ur{" "}
         <span className="text-[#ff4c00]">F</span>ounder
       </h1>
@@ -22,7 +23,12 @@ function Founder() {
             in their athletic journey.
           </p>
         </div>
-        <div className="w-[35%] h-[170px] md:h-[310px] lg:w-[25%] lg:h-[300px] xl:h-[400px] ">
+        <div
+          data-aos="zoom-in-up"
+          data-aos-duration="600"
+          data-aos-easing="linear"
+          className="w-[35%] h-[170px] md:h-[310px] lg:w-[25%] lg:h-[300px] xl:h-[400px] "
+        >
           <img
             src={Founderimg}
             alt="Founder img"

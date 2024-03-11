@@ -16,7 +16,8 @@ function Contact() {
       
       {/* -----------Small screen img ---------------------- */}
 
-      <div className="w-[100%] h-[3o0px] pt-[10px] md:w-[50%] md:ml-[180px] lg:hidden">
+      <div data-aos="flip-down" data-aos-offset="300"
+     data-aos-duration="300" className="w-[100%] h-[3o0px] pt-[10px] md:w-[50%] md:ml-[180px] lg:hidden">
         <img
           className="w-full h-full object-cover"
           src={conatctimg}
@@ -25,7 +26,9 @@ function Contact() {
       </div>
       {/* -----------big screen img ---------------------- */}
      <div className="lg:flex lg:justify-between lg:items-center lg:w-full lg:h-[350px]">
-      <div className="w-[30%] hidden lg:block">
+      <div  data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" className="w-[30%] hidden lg:block">
         <img
           className="w-full h-full object-cover"
           src={Contactimg}
@@ -34,7 +37,9 @@ function Contact() {
       </div>
 
       {/* --------------Get In Touch-------------------- */}
-      <div className="md:ml-[70px] lg:ml-0 lg:w-[65%] xl:w-[60%]">
+      <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="3000" className="md:ml-[70px] lg:ml-0 lg:w-[65%] xl:w-[60%]">
       <div className="bg-[#ff00001b] w-full h-[350px] flex flex-col gap-[25px] items-center justify-center md:w-[90%]">
         <div className="w-[100%] flex justify-around items-center gap-2 ">
           <input

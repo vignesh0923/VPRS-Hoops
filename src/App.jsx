@@ -6,18 +6,22 @@ import Home from "./Home/Home";
 import Map from "./Map/Map";
 import Navbar from "./Navbar/navbar";
 import VisionMission from "./visionmission/Vision&mission";
+import Aos from "aos";
+import 'aos/dist/aos.css'
 
 function App() {
+  Aos.init();
+
   return (
-    <div >
+    <div className="overflow-hidden">
       <Navbar />
-      <Home/>
-      <About/>
-      <VisionMission/>
-      <Founder/>
-      <Contact/>
-      <Map/>
-      <Footer/>
+      <Home />
+      <About />
+      <VisionMission />
+      <Founder />
+      <Contact />
+      <Map />
+      <Footer />
     </div>
   );
 }
