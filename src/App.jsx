@@ -1,4 +1,4 @@
-import About from "./About/About";
+import About from "./About/About"
 import Contact from "./Contact/Contact";
 import Footer from "./Footer/Footer";
 import Founder from "./Founder/Founder";
@@ -7,22 +7,28 @@ import Map from "./Map/Map";
 import Navbar from "./Navbar/navbar";
 import VisionMission from "./visionmission/Vision&mission";
 import Aos from "aos";
-import 'aos/dist/aos.css'
+import "aos/dist/aos.css";
+import { useRef } from "react";
 
 function App() {
   Aos.init();
 
+  const home = useRef();
+
+
   return (
+    <main>
     <div className="overflow-hidden">
       <Navbar />
-      <Home />
-      <About />
+      <Home home={home}/>
+      <About/>
       <VisionMission />
       <Founder />
       <Contact />
       <Map />
       <Footer />
     </div>
+    </main>
   );
 }
 

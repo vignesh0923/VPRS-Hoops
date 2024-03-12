@@ -23,29 +23,29 @@ function Footer() {
         </div>
         <div className="pt-[30px] md:w-[30%]">
           <ul className="flex flex-col items-start justify-center gap-[2px] md:gap-0 p-[20px]">
-            <li className="text-[23px] text-white font-[700] md:text-[20px] md:font-[600] md:text-black">
+            <li className="text-[20px] text-white font-[100] md:text-[20px] md:font-[600] md:text-black">
               <a>Home</a>
             </li>
-            <li className="text-[23px] text-white font-[700] md:text-[20px] md:font-[600] md:text-black">
+            <li className="text-[20px] text-white font-[100] md:text-[20px] md:font-[600] md:text-black">
               <a>About Us</a>
             </li>
-            <li className="text-[23px] text-white font-[700] md:text-[20px] md:font-[600] md:text-black">
+            <li className="text-[20px] text-white font-[100] md:text-[20px] md:font-[600] md:text-black">
               <a>Registration</a>
             </li>
-            <li className="text-[23px] text-white font-[700] md:text-[20px] md:font-[600] md:text-black">
+            <li className="text-[20px] text-white font-[100] md:text-[20px] md:font-[600] md:text-black">
               <a>Our Founder</a>
             </li>
-            <li className="text-[23px] text-white font-[700] md:text-[20px] md:font-[600] md:text-black">
+            <li className="text-[20px] text-white font-[100] md:text-[20px] md:font-[600] md:text-black">
               <a>Contact Us</a>
             </li>
           </ul>
         </div>
         <div className="p-[20px] md:w-[40%]">
-          <h1 className="text-[#FF0000] text-[23px] font-[900] pb-[10px] md:text-black md:">
+          <h1 className="text-[#FF0000] text-[23px] font-[900] pb-[10px] md:text-black ">
             NEWS LETTER
           </h1>
           <input
-            className="w-[65%] h-[45px] p-[5px] bg-[#e0989868]  rounded-[3px] bg-opacity-5 md:w-[60%] md:bg-black md:p-[10px]"
+            className="w-[65%] h-[45px] p-[5px] bg-[#e0989868] text-white  rounded-[3px] bg-opacity-5 md:w-[60%] md:bg-black md:p-[10px]"
             type="text"
             placeholder="Enter Your Email"
           />

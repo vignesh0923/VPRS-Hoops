@@ -7,9 +7,9 @@ import { MdGroups } from "react-icons/md";
 import { FaGoogleWallet } from "react-icons/fa6";
 import "./Home.css"
 
-function Home() {
+function Home({home}) {
   return (
-    <div className=" w-full bgvideo">
+    <div className=" w-full bgvideo" id="home" ref={home}>
       <div className="w-full h-screen ">
         <div className="intro absolute w-full z-[2] flex flex-col  md:mt-0 ">
           <h1  className="text-white text-[30px] font-[900] pl-2 mt-[10px] md:text-[50px] md:mt-[50px] lg:text-[65px] xl:mt-[110px] xl:pl-[25px]">
@@ -18,7 +18,7 @@ function Home() {
           <h1  className="text-white text-[25px] pl-2 font-black md:text-[45px] xl:pl-[25px] lg:text-[55px]">
             Academy Foundation <span className="text-[#FF4C00]">!</span>
           </h1>
-          <p className=" text-white text-[15px] text-start font-semibold pl-2 pt-4 md:w-[70%] md:text-[20px] md:font-[500] lg:text-[23px] xl:w-[66%] xl:pl-[25px] xl:text-[30px]">
+          <p className=" text-white text-[15px] text-start font-semibold pl-2 pt-4 md:w-[70%] md:text-[20px] md:font-[500] lg:w-[65%] lg:text-[20px] xl:w-[56%] xl:pl-[25px] xl:text-[20px]">
             At VPRS Hoops Academy Foundation, we are dedicated to providing a
             platform for young athletes to develop their basketball skills while
             fostering a strong sense of teamwork, discipline, and sportsmanship.
@@ -32,7 +32,7 @@ function Home() {
           <div 
             className="w-[170px] h-[70px] md:w-[220px] md:h-[90px] md:ml-[520px] md:bottom-[140px] lg:bottom-[150px] lg:w-[300px] lg:h-[120px] lg:ml-[710px] lg:rounded-[100px] xl:ml-[75%] mt-[50px] ml-[110px] rounded-[50px] overflow-hidden bg-[#FF4C00] flex relative shadow-[#FF4C00] shadow-2xl"
           >
-            <div className="absolute left-0 top-0 flex justify-center items-center w-[50%] h-[100%] z-10   animate-wiggle">
+            <div className="absolute left-0 top-0 flex justify-center items-center w-[50%] h-[100%] z-10  animate-wiggle">
               <img
                 className="bg-[#FF4C00] rounded-[100px]"
                 src={basketball}
@@ -41,7 +41,7 @@ function Home() {
             </div>
             <button
               type="submit"
-              className="w-[50%] relative left-0 top-0 p-1 text-center text-[13px] font-black border-none  text-[#221014] pl-[9px] md:text-2xl md:font-extrabold lg:text-3xl lg: lg:ml-[20px] "
+              className="w-[50%] relative left-0 top-0 p-1 text-center text-[13px] font-black border-none hover:text-white text-[#221014] pl-[9px] md:text-2xl md:font-extrabold lg:text-3xl lg: lg:ml-[20px] "
             >
               Join Us
             </button>

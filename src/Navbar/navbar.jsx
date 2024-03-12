@@ -17,7 +17,7 @@ function Navbar() {
             <li>
               <a
                 className="text-base text-black font-[700] hover:text-white hover:underline-black hover:underline hover:underline-offset-[8px] "
-                href=" "
+                href=""
               >
                 Home
               </a>
@@ -72,11 +72,12 @@ function Navbar() {
       {/* ${navbar ? "ml-0":"ml-[70%]"} => this is using side navbar */}
 
       <div
-        className={`fixed top-0 w-[200px] h-screen bg-black p-[10px] z-20 ${
+        className={`fixed top-0 w-[250px] h-screen bg-black z-20 ${
           NavOpen ? "left-0" : "-left-full"
         }`}
       >
-        <ul className="flex flex-col justify-center items-start gap-[20px]">
+        <h1 className="text-white w-[100%] h-[50px] bg-[#FF4C00] text-[18px] text-center pt-[10px] font-[900]">VPRS HOOPS ACADEMY</h1>
+        <ul className="flex flex-col p-[20px] justify-center items-start gap-[20px]">
           <li>
             <a
               className="text-xl md:text-xl text-[#FF4C00] font-bold hover:underline-yellow hover:underline hover:underline-offset-[8px]"
@@ -126,7 +127,12 @@ function Navbar() {
             </a>
           </li>
         </ul>
-        <div><img src={logo}/></div>
+        <div className="flex flex-col items-center justify-center mt-[60px] md:mt-0 "><img src={logo}/>
+        <h1 className="text-[#FF0000] mb-[30px] text-[15px] font-[900] text-center md:text-[13px] md:font-[800] md:text-black md:mb-[100px]">
+            JOIN THE{" "}
+            <span className="text-white "> ONES </span>{" "}
+            COMMUNITY
+          </h1></div>
       </div>
     </div>
   );

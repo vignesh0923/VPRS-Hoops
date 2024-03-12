@@ -9,7 +9,7 @@ function Founder() {
       </h1>
       <div className="w-full pt-[30px] p-[10px] flex justify-around gap-[25px] items-center lg:flex-row lg:justify-around">
         <div className="w-[65%] text-balance text-white font-[500] lg:text-[35px]">
-          <p className="text-[12px] font-bold text-justify pr-[10px] md:pl-[10px] md:text-[20px] md:text-justify xl:text-[35px]">
+          <p className="text-[12px] font-bold text-justify pr-[10px] md:pl-[10px] md:text-[20px] md:text-justify xl:font-[300] xl:text-[35px]">
             Nagaarjun VPRS, the founder and driving force behind{" "}
             <span className="text-[#ff4c00]">
               {" "}

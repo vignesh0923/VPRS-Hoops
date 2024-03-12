@@ -43,23 +43,23 @@ function Contact() {
       <div className="bg-[#ff00001b] w-full h-[350px] flex flex-col gap-[25px] items-center justify-center md:w-[90%]">
         <div className="w-[100%] flex justify-around items-center gap-2 ">
           <input
-            className="w-[45%] p-[5px] md:p-[10px] bg-[#e0989868] rounded-[3px] bg-opacity-5"
+            className="w-[45%] text-white p-[5px] md:p-[10px] bg-[#e0989868] rounded-[3px] bg-opacity-5"
             type="text"
             placeholder="NAME"
           />
           <input
-            className="w-[45%] p-[5px] md:p-[10px] bg-[#e0989868] rounded-[3px] bg-opacity-5"
+            className="w-[45%] text-white p-[5px] md:p-[10px] bg-[#e0989868] rounded-[3px] bg-opacity-5"
             type="text"
             placeholder="PHONE NO"
           />
         </div>
         <input
-          className="w-[95%] p-[6px] md:p-[10px] bg-[#e0989868] rounded-[3px] bg-opacity-5"
+          className="w-[95%] text-white p-[6px] md:p-[10px] bg-[#e0989868] rounded-[3px] bg-opacity-5"
           type="text"
           placeholder="E-mail"
         />
         <textarea
-          className="w-[95%] h-[100px] p-[5px] md:p-[10px] bg-[#e0989868] rounded-[3px] bg-opacity-5"
+          className="w-[95%] text-white h-[100px] p-[5px] md:p-[10px] bg-[#e0989868] rounded-[3px] bg-opacity-5"
           type="text"
           placeholder="Message"
         />
