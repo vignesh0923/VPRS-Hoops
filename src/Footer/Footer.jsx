@@ -4,6 +4,7 @@ import { IoIosMail } from "react-icons/io";
 import { GrInstagram } from "react-icons/gr";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
+import { FaAngleDoubleRight } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -22,38 +23,42 @@ function Footer() {
           </h1>
         </div>
         <div className="pt-[30px] md:w-[30%]">
+          <h1 className=" hidden md:block text-start ml-[20px] text-[25px] font-[900]">Quick Link</h1>
           <ul className="flex flex-col items-start justify-center gap-[2px] md:gap-0 p-[20px]">
-            <li className="text-[20px] text-white font-[100] md:text-[20px] md:font-[600] md:text-black">
-              <a>Home</a>
+            <li className="text-[20px] text-white font-[100] flex items-center gap-2 md:text-[20px] md:font-[600] md:text-black">
+              <span><FaAngleDoubleRight className="text-[12px] hover:text-white font-thin"/></span><a className="hover:text-white" href="/">Home</a>
             </li>
-            <li className="text-[20px] text-white font-[100] md:text-[20px] md:font-[600] md:text-black">
-              <a>About Us</a>
+            <li className="text-[20px] text-white font-[100] flex items-center gap-2 md:text-[20px] md:font-[600] md:text-black">
+              <span><FaAngleDoubleRight className="text-[12px] hover:text-white font-thin"/></span><a className="hover:text-white" href="#about">About Us</a>
             </li>
-            <li className="text-[20px] text-white font-[100] md:text-[20px] md:font-[600] md:text-black">
-              <a>Registration</a>
+            <li className="text-[20px] text-white font-[100] flex items-center gap-2 md:text-[20px] md:font-[600] md:text-black">
+              <span><FaAngleDoubleRight className="text-[12px] hover:text-white font-thin"/></span><a className="hover:text-white" href="#contact">Registration</a>
             </li>
-            <li className="text-[20px] text-white font-[100] md:text-[20px] md:font-[600] md:text-black">
-              <a>Our Founder</a>
+            <li className="text-[20px] text-white font-[100] flex items-center gap-2 md:text-[20px] md:font-[600] md:text-black">
+              <span><FaAngleDoubleRight className="text-[12px] hover:text-white font-thin"/></span><a className="hover:text-white" href="#founder">Our Founder</a>
             </li>
-            <li className="text-[20px] text-white font-[100] md:text-[20px] md:font-[600] md:text-black">
-              <a>Contact Us</a>
+            <li className="text-[20px] text-white font-[100] flex items-center gap-2 md:text-[20px] md:font-[600] md:text-black">
+              <span><FaAngleDoubleRight className="text-[12px] hover:text-white font-thin"/></span><a className="hover:text-white">Contact Us</a>
             </li>
           </ul>
         </div>
         <div className="p-[20px] md:w-[40%]">
-          <h1 className="text-[#FF0000] text-[23px] font-[900] pb-[10px] md:text-black ">
+          <h1 className="text-[#FF0000] text-[23px] font-[900] pb-[10px] md:text-black lg:ml-[45px] lg:font-[900]">
             NEWS LETTER
           </h1>
+          <div className="w-full flex items-Start justify-center">
           <input
-            className="w-[65%] h-[45px] p-[5px] bg-[#e0989868] text-white  rounded-[3px] bg-opacity-5 md:w-[60%] md:bg-black md:p-[10px]"
+            className="w-[65%] h-[45px] p-[5px] bg-[#e0989868] text-white  rounded-[1px] bg-opacity-5 md:w-[60%] md:bg-black md:p-[10px]"
             type="text"
             placeholder="Enter Your Email"
           />
-          <span>
-            <button className="bg-[#FF0000] hover:bg-[#ffff] hover:text-[#FF0000] text-xl font-semibold rounded-[1px] text-[#ffff] w-[100px] h-[42px] md:bg-white md:text-[#FF0000] md:h-[43px] md:font-black">
+          
+            <button className="bg-[#FF0000] hover:bg-[#ffff] hover:text-[#FF0000] text-xl font-semibold rounded-[1px] text-[#ffff] w-[100px] h-[45px] md:bg-white md:text-[#FF0000] lg:h-[45px] md:font-black">
               SEND
             </button>
-          </span>
+          </div>
+          
+         
         </div>
       </div>
       <div className="flex gap-[10px] p-[10px] md:items-center md:justify-center md:gap-[30px]">

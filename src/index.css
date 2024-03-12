@@ -8,6 +8,11 @@ body{
     font-family: "Mukta", sans-serif;
 }
 
+::selection{
+  background-color: #ff4c00;
+  color: black;
+}
+
 @keyframes wiggle {
     0% {
       margin-left: 0px;

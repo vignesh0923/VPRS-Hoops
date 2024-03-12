@@ -1,7 +1,7 @@
 import Founderimg from "../assets/1.jpg";
 function Founder() {
   return (
-    <div className="flex flex-col bg-black w-[100%]">
+    <div className="flex flex-col bg-black w-[100%]" id="founder">
       <h1 data-aos="fade-down-right"data-aos-duration="600"
     data-aos-easing="linear" className="text-white font-[600] text-[30px] pl-[10px]  md:text-[35px] pt-[20px] lg:pl-[10px] lg:text-[45px] xl:pt-[30px]">
         <span className="text-[#ff4c00]">O</span>ur{" "}
@@ -9,7 +9,7 @@ function Founder() {
       </h1>
       <div className="w-full pt-[30px] p-[10px] flex justify-around gap-[25px] items-center lg:flex-row lg:justify-around">
         <div className="w-[65%] text-balance text-white font-[500] lg:text-[35px]">
-          <p className="text-[12px] font-bold text-justify pr-[10px] md:pl-[10px] md:text-[20px] md:text-justify xl:font-[300] xl:text-[35px]">
+          <p className="text-[12px] font-bold text-justify pr-[10px] md:pl-[10px] md:text-[20px] md:text-justify xl:font-[300] xl:text-[34px]">
             Nagaarjun VPRS, the founder and driving force behind{" "}
             <span className="text-[#ff4c00]">
               {" "}

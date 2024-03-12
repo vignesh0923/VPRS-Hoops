@@ -8,7 +8,7 @@ function Navbar() {
 
   return (
     <div>
-      <div className="w-full h-[50px] bg-[#FF4C00] text-white flex items-center justify-between lg:p-4  relative z-[20]">
+      <div className="w-full h-[70px] bg-[#FF4C00] text-white flex items-center justify-between lg:p-4  relative z-[20]">
         <div className="w-[100px] p-[10px]">
           <img src={logo} alt="academy-logo" />
         </div>
@@ -17,7 +17,7 @@ function Navbar() {
             <li>
               <a
                 className="text-base text-black font-[700] hover:text-white hover:underline-black hover:underline hover:underline-offset-[8px] "
-                href=""
+                href="/home"
               >
                 Home
               </a>
@@ -25,7 +25,7 @@ function Navbar() {
             <li>
               <a
                 className="text-base text-black font-[700] hover:text-white hover:underline-black hover:underline hover:underline-offset-[8px] "
-                href=" "
+                href="#about"
               >
                 About Us
               </a>
@@ -33,7 +33,7 @@ function Navbar() {
             <li>
               <a
                 className="text-base text-black font-[700] hover:text-white hover:underline-black hover:underline hover:underline-offset-[8px] "
-                href=" "
+                href="#contact"
               >
                 Registrations
               </a>
@@ -49,7 +49,7 @@ function Navbar() {
             <li>
               <a
                 className="text-base text-black font-[700] hover:text-white hover:underline-black hover:underline hover:underline-offset-[8px] "
-                href=" "
+                href="#founder"
               >
                 Founder
               </a>
@@ -57,7 +57,7 @@ function Navbar() {
             <li>
               <a
                 className="text-base text-black font-[700] hover:text-white hover:underline-black hover:underline hover:underline-offset-[8px] "
-                href=" "
+                href="#map"
               >
                 Contact Us
               </a>
@@ -81,7 +81,7 @@ function Navbar() {
           <li>
             <a
               className="text-xl md:text-xl text-[#FF4C00] font-bold hover:underline-yellow hover:underline hover:underline-offset-[8px]"
-              href=" "
+              href="/"
             >
               Home
             </a>
@@ -89,7 +89,7 @@ function Navbar() {
           <li>
             <a
               className="text-xl md:text-xl text-[#FF4C00] font-bold hover:underline-yellow hover:underline hover:underline-offset-[8px]"
-              href=" "
+              href="#about"
             >
               About Us
             </a>
@@ -97,7 +97,7 @@ function Navbar() {
           <li>
             <a
               className="text-xl md:text-xl text-[#FF4C00] font-bold hover:underline-yellow hover:underline hover:underline-offset-[8px]"
-              href=" "
+              href="#contact"
             >
               Registrations
             </a>
@@ -113,7 +113,7 @@ function Navbar() {
           <li>
             <a
               className="text-xl md:text-xl text-[#FF4C00] font-bold hover:underline-yellow hover:underline hover:underline-offset-[8px]"
-              href=" "
+              href="#founder"
             >
               Founder
             </a>
@@ -121,7 +121,7 @@ function Navbar() {
           <li>
             <a
               className="text-xl md:text-xl text-[#FF4C00] font-bold hover:underline-yellow hover:underline hover:underline-offset-[8px]"
-              href=" "
+              href="#map"
             >
               Contact Us
             </a>
