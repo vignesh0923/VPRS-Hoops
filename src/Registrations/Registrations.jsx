@@ -42,6 +42,7 @@ function Registrations() {
   return (
     <div className="bg-black ">
       <Navbar/>
+      <form ref={form} onSubmit={sendEmail}/>
       <h1 className="text-[25px] text-[#ff4c00] font-[700] text-center p-[20px] lg:text-[30px]">
         SUMMER CAMP REGISTRATION
       </h1>
@@ -190,8 +191,9 @@ function Registrations() {
               className="p-[8px] w-[300px] text-white bg-[#232326fd] outline-none rounded-[6px] lg:p-[15px] lg:w-[400px] "
             />
           </div>
+  
         </section>
-
+        <form/>
         {/* -------------------Additional Information----------------- */}
 
         {/* -------------------Terms and Conditions----------------- */}
