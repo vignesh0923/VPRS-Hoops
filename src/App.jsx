@@ -8,7 +8,10 @@ import Navbar from "./Navbar/navbar";
 import VisionMission from "./visionmission/Vision&mission";
 import Aos from "aos";
 import "aos/dist/aos.css";
+
 import { useRef } from "react";
+
+
 
 function App() {
   Aos.init();

@@ -5,33 +5,31 @@ import { FaBiohazard } from "react-icons/fa6";
 import { MdGroups } from "react-icons/md";
 // import { FaBasketball } from "react-icons/fa6";
 import { FaGoogleWallet } from "react-icons/fa6";
-import "./Home.css"
+import "./Home.css";
 
-function Home({home}) {
+function Home({ home }) {
   return (
     <div className=" w-full bgvideo" id="home" ref={home}>
       <div className="w-full h-screen ">
         <div className="intro absolute w-full z-[2] flex flex-col  md:mt-0 ">
-          <h1  className="text-white text-[30px] font-[900] pl-2 mt-[10px] md:text-[50px] md:mt-[50px] lg:text-[65px] xl:mt-[110px] xl:pl-[25px]">
+          <h1 className="text-white text-[30px] font-[900] pl-2 mt-[10px] md:text-[50px] md:mt-[50px] lg:text-[65px] xl:mt-[110px] xl:pl-[25px]">
             Welcome To <span className="text-[#FF4C00]"> VPRS Hoops</span>
           </h1>
-          <h1  className="text-white text-[25px] pl-2 font-black md:text-[45px] xl:pl-[25px] lg:text-[55px]">
+          <h1 className="text-white text-[25px] pl-2 font-black md:text-[45px] xl:pl-[25px] lg:text-[55px]">
             Academy Foundation <span className="text-[#FF4C00]">!</span>
           </h1>
           <p className=" text-white text-[15px] text-start font-semibold pl-2 pt-4 md:w-[70%] md:text-[20px] md:font-[500] lg:w-[65%] lg:text-[20px] xl:w-[56%] xl:pl-[25px] xl:text-[20px]">
-            At VPRS Hoops Academy Foundation, we are dedicated to providing a
-            platform for young athletes to develop their basketball skills while
-            fostering a strong sense of teamwork, discipline, and sportsmanship.
-            Whether you're a beginner or an experienced player, our academy
-            offers comprehensive training programs designed to help you reach
-            your full potential on and off the court.
+            Welcome to VPRS Hoops Academy Foundation, where dreams take flight
+            on the wings of basketball! We are a non-profit organization
+            dedicated to empowering young basketball players to excel in the
+            game and beyond. Join us on our journey to unlock the full potential
+            of aspiring athletes and pave the way for a brighter future through
+            the power of basketball.
           </p>
 
           {/*------------------------- Animated basketball------------------------------ */}
 
-          <div 
-            className="w-[170px] h-[70px] md:w-[220px] md:h-[90px] md:ml-[520px] md:bottom-[140px] lg:bottom-[150px] lg:w-[300px] lg:h-[120px] lg:ml-[710px] lg:rounded-[100px] xl:ml-[75%] mt-[50px] ml-[110px] rounded-[50px] overflow-hidden bg-[#FF4C00] flex relative shadow-[#FF4C00] shadow-2xl"
-          >
+          <div className="w-[170px] h-[70px] md:w-[220px] md:h-[90px] md:ml-[520px] md:bottom-[140px] lg:bottom-[150px] lg:w-[300px] lg:h-[120px] lg:ml-[710px] lg:rounded-[100px] xl:ml-[75%] mt-[50px] ml-[110px] rounded-[50px] overflow-hidden bg-[#FF4C00] flex relative shadow-[#FF4C00] shadow-2xl">
             <div className="absolute left-0 top-0 flex justify-center items-center w-[50%] h-[100%] z-10  animate-wiggle">
               <img
                 className="bg-[#FF4C00] rounded-[100px]"

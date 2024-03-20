@@ -2,9 +2,11 @@ import React, { useState } from "react";
 import { CgMenuRight } from "react-icons/cg";
 import { BiSearchAlt } from "react-icons/bi";
 import logo from "../assets/academy-logo.png";
+import { useNavigate } from "react-router-dom";
 
 function Navbar() {
   const [NavOpen, setNavOpen] = useState(false);
+  const Navigate = useNavigate()
 
   return (
     <div>
@@ -30,13 +32,10 @@ function Navbar() {
                 About Us
               </a>
             </li>
-            <li>
-              <a
-                className="text-base text-black font-[700] hover:text-white hover:underline-black hover:underline hover:underline-offset-[8px] "
-                href="#contact"
-              >
+            <li onClick={()=>{Navigate("/registration")}}  className="text-base text-black font-[700] hover:text-white hover:underline-black hover:underline hover:underline-offset-[8px] ">
+    
                 Registrations
-              </a>
+          
             </li>
             <li>
               <a

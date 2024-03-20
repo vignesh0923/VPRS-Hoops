@@ -24,15 +24,14 @@ function About({ About }) {
           />
         </div>
         <div className="w-[65%]  text-balance text-white font-[500]  ">
-          <p className="text-[12px] font-bold text-justify pr-[10px] md:text-[22px] lg:text-[28px] xl:font-[300] xl:text-[34px]">
-            VPRS Hoops Academy Foundation is a premier basketball training
-            institution established with the vision of nurturing the next
-            generation of basketball stars.
-            <span className="text-[#ff4c00]"> Founded by Nagaarjun VPRS</span>,
-            a passionate advocate for youth development and sports excellence,
-            our academy is committed to providing high-quality coaching,
-            state-of-the-art facilities, and a supportive environment for
-            aspiring athletes.
+          <p className="text-[10px] font-[500] text-justify pr-[15px] pb-[10px] md:text-[22px] lg:text-[25px] xl:font-[300] xl:text-[34px]">
+            At VPRS Hoops Academy Foundation, we believe in the transformative
+            power of basketball. Founded by Nagaarjun, a passionate basketball
+            player and advocate for sports development,<span className="text-[#ff4c00]"> our academy aims to
+            provide quality basketball training and coaching</span> to aspiring players
+            in our community. With a strong emphasis on skill development,
+            character building, and academic excellence, we strive to create a
+            supportive and inclusive environment where every player can thrive.
           </p>
         </div>
       </div>

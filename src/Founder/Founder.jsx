@@ -2,37 +2,38 @@ import Founderimg from "../assets/1.jpg";
 function Founder() {
   return (
     <div className="flex flex-col bg-black w-[100%]" id="founder">
-      <h1 data-aos="fade-down-right"data-aos-duration="600"
-    data-aos-easing="linear" className="text-white font-[600] text-[30px] pl-[10px]  md:text-[35px] pt-[20px] lg:pl-[10px] lg:text-[45px] xl:pt-[30px]">
+      <h1
+        data-aos="fade-down-right"
+        data-aos-duration="600"
+        data-aos-easing="linear"
+        className="text-white font-[600] text-[30px] pl-[10px]  md:text-[35px] pt-[20px] lg:pl-[10px] lg:text-[45px] xl:pt-[30px]"
+      >
         <span className="text-[#ff4c00]">O</span>ur{" "}
         <span className="text-[#ff4c00]">F</span>ounder
       </h1>
       <div className="w-full pt-[30px] p-[10px] flex justify-around gap-[25px] items-center lg:flex-row lg:justify-around">
         <div className="w-[65%] text-balance text-white font-[500] lg:text-[35px]">
-          <p className="text-[12px] font-bold text-justify pr-[10px] md:pl-[10px] md:text-[20px] md:text-justify xl:font-[300] xl:text-[34px]">
-            Nagaarjun VPRS, the founder and driving force behind{" "}
-            <span className="text-[#ff4c00]">
-              {" "}
-              VPRS Hoops Academy Foundation{" "}
-            </span>
-            , is a renowned figure in the sports community with a deep passion
-            for basketball and a commitment to empowering young athletes. With
-            years of experience in coaching and mentoring, Nagaarjun VPRS brings
-            a wealth of knowledge and expertise to our academy, ensuring that
-            each player receives personalized attention and guidance to thrive
-            in their athletic journey.
+          <p className="text-[10px] font-bold text-justify pr-[10px] md:pl-[10px] md:text-[20px] md:text-justify xl:font-[300] xl:text-[34px]">
+            Meet Nagaarjun, the visionary founder of VPRS Hoops Academy
+            Foundation. As a former Madurai Sports Development Authority Of
+            Tamilnadu (SDAT) basketball player and current student-athlete at
+            Sindhi College, Bangalore, Nagaarjun's journey from Pudukkottai to
+            Bangalore exemplifies the <span className="text-[#ff4c00]"> transformative power of basketball.</span>
+            Inspired by his own experiences and fueled by a passion for giving
+            back, Nagaarjun is dedicated to creating pathways for young athletes
+            to succeed academically, athletically, and personally.
           </p>
         </div>
         <div
           data-aos="zoom-in-up"
           data-aos-duration="600"
           data-aos-easing="linear"
-          className="w-[35%] h-[170px] md:h-[310px] lg:w-[25%] lg:h-[300px] xl:h-[400px] "
+          className="w-[40%] h-[190px] md:h-[310px] lg:w-[25%] lg:h-[300px] xl:h-[400px] "
         >
           <img
             src={Founderimg}
             alt="Founder img"
-            className="w-full h-full object-cover lg:object-cover"
+            className="w-full h-full object-cover"
           />
         </div>
       </div>
