@@ -62,6 +62,7 @@ function Registrations() {
               className="p-[8px] w-[300px] text-white bg-[#232326fd] outline-none rounded-[6px] lg:p-[15px] lg:w-[400px]"
             />
           </div>
+          
           <div>
             <h1 className="text-white text-[20px] mb-2">Age</h1>
             <input
